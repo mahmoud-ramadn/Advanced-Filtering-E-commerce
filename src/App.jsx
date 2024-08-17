@@ -11,7 +11,6 @@ import "./index.css";
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
 
-  // ----------- Input Filter -----------
   const [query, setQuery] = useState("");
 
   const handleInputChange = (event) => {
